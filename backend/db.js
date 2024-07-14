@@ -66,5 +66,5 @@ const accountSchema = new mongoose.Schema({
 })
 
 
-const Account = mongoose.model('accont', accountSchema)
+const Account = mongoose.model('account', accountSchema)
 export {connect, User, Account}
