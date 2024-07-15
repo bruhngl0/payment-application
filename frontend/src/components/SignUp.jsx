@@ -38,9 +38,9 @@ const SignUp = () => {
 
 
   return (
-    <div>
+    <div style = {{display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center"}}>
       <h1>SignUp</h1>
-      <form onSubmit={(e)=>{
+      <form style= {{display: "flex", flexDirection: "column", width: "100px", justifyContent: "center", alignItems: "center"}} onSubmit={(e)=>{
         e.preventDefault()
         send()
         setFirstname("")
